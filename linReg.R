@@ -14,7 +14,7 @@ linReg <- function(X,Y) {
   a = SumA1 / SumA2;
   b = atlag(Y) - (a * atlag(X));
   
-  lines(X, a*X+b, type = "l", lty = 1)
+  lines(X, a*X+b, type = "l", lty = 1, col="blue")
 
 }
 
